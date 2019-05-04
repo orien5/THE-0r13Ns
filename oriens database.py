@@ -1,9 +1,7 @@
 #!/usr/bin/python
 import os
 clean = lambda: os.system("clear")
-clean
-def break(line):
-line = print("#####################################################################################################")
+clean 
 members = ["dk","ph","jack","mf","rudra","aron","smit","rahman","mahi","andy"]
 permission = raw_input("I need to know who is trying to access may I? y/n ")
 if permission == "y":
